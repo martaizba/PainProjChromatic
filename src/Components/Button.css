@@ -1,23 +1,24 @@
 .button {
-  .button {
-    border: 2px solid rgb(20, 20, 20);
-    padding: 15px 20px;
-    border-radius: 20px;
-    color: whitesmoke;
-    background-color: rgb(18, 18, 18);
+    padding: 12px 12px;
+    border-radius: 12px;
+    color: #f5f5f5;
+    background-color: #4172AD;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
     transition: 0.4s;
-  }
 }
 
 .button:hover{
   filter: brightness(120%);
 }
 .secondary {
-  color: black;
-  background-color: cadetblue;
+  color: #000000;
+  background-color: #93C4FF;
 }
 
 .tertiary {
-  color: black;
-  background-color: orange;
+  color: #000000;
+  background-color: #f5f5f5;
 }
